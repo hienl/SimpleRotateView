@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23BD394918271DED00DA225A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BD394818271DED00DA225A /* Foundation.framework */; };
+		23BD394B18271DED00DA225A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BD394A18271DED00DA225A /* CoreGraphics.framework */; };
+		23BD394D18271DED00DA225A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BD394C18271DED00DA225A /* UIKit.framework */; };
+		23BD395318271DED00DA225A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23BD395118271DED00DA225A /* InfoPlist.strings */; };
+		23BD395518271DED00DA225A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BD395418271DED00DA225A /* main.m */; };
+		23BD395918271DED00DA225A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BD395818271DED00DA225A /* AppDelegate.m */; };
+		23BD395C18271DEE00DA225A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BD395A18271DEE00DA225A /* Main_iPhone.storyboard */; };
+		23BD395F18271DEE00DA225A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BD395D18271DEE00DA225A /* Main_iPad.storyboard */; };
+		23BD396218271DEE00DA225A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BD396118271DEE00DA225A /* ViewController.m */; };
+		23BD396418271DEE00DA225A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BD396318271DEE00DA225A /* Images.xcassets */; };
+		23BD396B18271DEE00DA225A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BD396A18271DEE00DA225A /* XCTest.framework */; };
+		23BD396C18271DEE00DA225A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BD394818271DED00DA225A /* Foundation.framework */; };
+		23BD396D18271DEE00DA225A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BD394C18271DED00DA225A /* UIKit.framework */; };
+		23BD397518271DEE00DA225A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23BD397318271DEE00DA225A /* InfoPlist.strings */; };
+		23BD397718271DEE00DA225A /* SimpleRotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BD397618271DEE00DA225A /* SimpleRotateTests.m */; };
+		23BD398318271F1000DA225A /* TransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BD398218271F1000DA225A /* TransitionView.m */; };
+		C979FD43182886BA0028B09D /* death-valley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C979FD41182886BA0028B09D /* death-valley.jpg */; };
+		C979FD44182886BA0028B09D /* la.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C979FD42182886BA0028B09D /* la.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23BD396E18271DEE00DA225A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23BD393D18271DED00DA225A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23BD394418271DED00DA225A;
+			remoteInfo = SimpleRotate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23BD394518271DED00DA225A /* SimpleRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BD394818271DED00DA225A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23BD394A18271DED00DA225A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23BD394C18271DED00DA225A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23BD395018271DED00DA225A /* SimpleRotate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleRotate-Info.plist"; sourceTree = "<group>"; };
+		23BD395218271DED00DA225A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23BD395418271DED00DA225A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23BD395618271DED00DA225A /* SimpleRotate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleRotate-Prefix.pch"; sourceTree = "<group>"; };
+		23BD395718271DED00DA225A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23BD395818271DED00DA225A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23BD395B18271DEE00DA225A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		23BD395E18271DEE00DA225A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		23BD396018271DEE00DA225A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23BD396118271DEE00DA225A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23BD396318271DEE00DA225A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		23BD396918271DEE00DA225A /* SimpleRotateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRotateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BD396A18271DEE00DA225A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		23BD397218271DEE00DA225A /* SimpleRotateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleRotateTests-Info.plist"; sourceTree = "<group>"; };
+		23BD397418271DEE00DA225A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23BD397618271DEE00DA225A /* SimpleRotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRotateTests.m; sourceTree = "<group>"; };
+		23BD398118271F1000DA225A /* TransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionView.h; path = RotateTransition/TransitionView.h; sourceTree = "<group>"; };
+		23BD398218271F1000DA225A /* TransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionView.m; path = RotateTransition/TransitionView.m; sourceTree = "<group>"; };
+		C979FD41182886BA0028B09D /* death-valley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "death-valley.jpg"; sourceTree = "<group>"; };
+		C979FD42182886BA0028B09D /* la.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = la.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23BD394218271DED00DA225A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BD394B18271DED00DA225A /* CoreGraphics.framework in Frameworks */,
+				23BD394D18271DED00DA225A /* UIKit.framework in Frameworks */,
+				23BD394918271DED00DA225A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BD396618271DEE00DA225A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BD396B18271DEE00DA225A /* XCTest.framework in Frameworks */,
+				23BD396D18271DEE00DA225A /* UIKit.framework in Frameworks */,
+				23BD396C18271DEE00DA225A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23BD393C18271DED00DA225A = {
+			isa = PBXGroup;
+			children = (
+				23BD394E18271DED00DA225A /* SimpleRotate */,
+				23BD397018271DEE00DA225A /* SimpleRotateTests */,
+				23BD394718271DED00DA225A /* Frameworks */,
+				23BD394618271DED00DA225A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23BD394618271DED00DA225A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23BD394518271DED00DA225A /* SimpleRotate.app */,
+				23BD396918271DEE00DA225A /* SimpleRotateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23BD394718271DED00DA225A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23BD394818271DED00DA225A /* Foundation.framework */,
+				23BD394A18271DED00DA225A /* CoreGraphics.framework */,
+				23BD394C18271DED00DA225A /* UIKit.framework */,
+				23BD396A18271DEE00DA225A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23BD394E18271DED00DA225A /* SimpleRotate */ = {
+			isa = PBXGroup;
+			children = (
+				23BD395718271DED00DA225A /* AppDelegate.h */,
+				23BD395818271DED00DA225A /* AppDelegate.m */,
+				23BD395A18271DEE00DA225A /* Main_iPhone.storyboard */,
+				23BD395D18271DEE00DA225A /* Main_iPad.storyboard */,
+				23BD396018271DEE00DA225A /* ViewController.h */,
+				23BD396118271DEE00DA225A /* ViewController.m */,
+				23BD398018271E6600DA225A /* RotateTransition */,
+				23BD396318271DEE00DA225A /* Images.xcassets */,
+				23BD394F18271DED00DA225A /* Supporting Files */,
+			);
+			path = SimpleRotate;
+			sourceTree = "<group>";
+		};
+		23BD394F18271DED00DA225A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C979FD40182886BA0028B09D /* images */,
+				23BD395018271DED00DA225A /* SimpleRotate-Info.plist */,
+				23BD395118271DED00DA225A /* InfoPlist.strings */,
+				23BD395418271DED00DA225A /* main.m */,
+				23BD395618271DED00DA225A /* SimpleRotate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23BD397018271DEE00DA225A /* SimpleRotateTests */ = {
+			isa = PBXGroup;
+			children = (
+				23BD397618271DEE00DA225A /* SimpleRotateTests.m */,
+				23BD397118271DEE00DA225A /* Supporting Files */,
+			);
+			path = SimpleRotateTests;
+			sourceTree = "<group>";
+		};
+		23BD397118271DEE00DA225A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23BD397218271DEE00DA225A /* SimpleRotateTests-Info.plist */,
+				23BD397318271DEE00DA225A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23BD398018271E6600DA225A /* RotateTransition */ = {
+			isa = PBXGroup;
+			children = (
+				23BD398118271F1000DA225A /* TransitionView.h */,
+				23BD398218271F1000DA225A /* TransitionView.m */,
+			);
+			name = RotateTransition;
+			sourceTree = "<group>";
+		};
+		C979FD40182886BA0028B09D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C979FD41182886BA0028B09D /* death-valley.jpg */,
+				C979FD42182886BA0028B09D /* la.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23BD394418271DED00DA225A /* SimpleRotate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BD397A18271DEE00DA225A /* Build configuration list for PBXNativeTarget "SimpleRotate" */;
+			buildPhases = (
+				23BD394118271DED00DA225A /* Sources */,
+				23BD394218271DED00DA225A /* Frameworks */,
+				23BD394318271DED00DA225A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRotate;
+			productName = SimpleRotate;
+			productReference = 23BD394518271DED00DA225A /* SimpleRotate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23BD396818271DEE00DA225A /* SimpleRotateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BD397D18271DEE00DA225A /* Build configuration list for PBXNativeTarget "SimpleRotateTests" */;
+			buildPhases = (
+				23BD396518271DEE00DA225A /* Sources */,
+				23BD396618271DEE00DA225A /* Frameworks */,
+				23BD396718271DEE00DA225A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23BD396F18271DEE00DA225A /* PBXTargetDependency */,
+			);
+			name = SimpleRotateTests;
+			productName = SimpleRotateTests;
+			productReference = 23BD396918271DEE00DA225A /* SimpleRotateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23BD393D18271DED00DA225A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = GoroOtsubo;
+				TargetAttributes = {
+					23BD396818271DEE00DA225A = {
+						TestTargetID = 23BD394418271DED00DA225A;
+					};
+				};
+			};
+			buildConfigurationList = 23BD394018271DED00DA225A /* Build configuration list for PBXProject "SimpleRotate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23BD393C18271DED00DA225A;
+			productRefGroup = 23BD394618271DED00DA225A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23BD394418271DED00DA225A /* SimpleRotate */,
+				23BD396818271DEE00DA225A /* SimpleRotateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23BD394318271DED00DA225A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BD395F18271DEE00DA225A /* Main_iPad.storyboard in Resources */,
+				23BD396418271DEE00DA225A /* Images.xcassets in Resources */,
+				C979FD44182886BA0028B09D /* la.jpg in Resources */,
+				23BD395C18271DEE00DA225A /* Main_iPhone.storyboard in Resources */,
+				C979FD43182886BA0028B09D /* death-valley.jpg in Resources */,
+				23BD395318271DED00DA225A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BD396718271DEE00DA225A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BD397518271DEE00DA225A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23BD394118271DED00DA225A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BD396218271DEE00DA225A /* ViewController.m in Sources */,
+				23BD398318271F1000DA225A /* TransitionView.m in Sources */,
+				23BD395918271DED00DA225A /* AppDelegate.m in Sources */,
+				23BD395518271DED00DA225A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BD396518271DEE00DA225A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BD397718271DEE00DA225A /* SimpleRotateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23BD396F18271DEE00DA225A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23BD394418271DED00DA225A /* SimpleRotate */;
+			targetProxy = 23BD396E18271DEE00DA225A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23BD395118271DED00DA225A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23BD395218271DED00DA225A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		23BD395A18271DEE00DA225A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23BD395B18271DEE00DA225A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		23BD395D18271DEE00DA225A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23BD395E18271DEE00DA225A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		23BD397318271DEE00DA225A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23BD397418271DEE00DA225A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23BD397818271DEE00DA225A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23BD397918271DEE00DA225A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23BD397B18271DEE00DA225A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRotate/SimpleRotate-Prefix.pch";
+				INFOPLIST_FILE = "SimpleRotate/SimpleRotate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23BD397C18271DEE00DA225A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRotate/SimpleRotate-Prefix.pch";
+				INFOPLIST_FILE = "SimpleRotate/SimpleRotate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		23BD397E18271DEE00DA225A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleRotate.app/SimpleRotate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRotate/SimpleRotate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleRotateTests/SimpleRotateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		23BD397F18271DEE00DA225A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleRotate.app/SimpleRotate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRotate/SimpleRotate-Prefix.pch";
+				INFOPLIST_FILE = "SimpleRotateTests/SimpleRotateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23BD394018271DED00DA225A /* Build configuration list for PBXProject "SimpleRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BD397818271DEE00DA225A /* Debug */,
+				23BD397918271DEE00DA225A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23BD397A18271DEE00DA225A /* Build configuration list for PBXNativeTarget "SimpleRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BD397B18271DEE00DA225A /* Debug */,
+				23BD397C18271DEE00DA225A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23BD397D18271DEE00DA225A /* Build configuration list for PBXNativeTarget "SimpleRotateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BD397E18271DEE00DA225A /* Debug */,
+				23BD397F18271DEE00DA225A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23BD393D18271DED00DA225A /* Project object */;
+}
